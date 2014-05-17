@@ -480,7 +480,8 @@ body.modal-open #wrap{
   margin: 3px;
 }
 #owl-demo .item img{
-  display: block;
+  display: inline-block;
   width: 100%;
   height: auto;
 }
+
