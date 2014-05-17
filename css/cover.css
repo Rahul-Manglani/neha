@@ -1,0 +1,281 @@
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+a, a:focus, a:hover {
+    color: #FFFFFF;
+}
+
+
+.btn-default, .btn-default:hover, .btn-default:focus {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #FFFFFF;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #FFFFFF;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    border-top-color: #FFFFFF;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #333333;
+    text-shadow: none;
+}
+html, body {
+    background-color: #333333;
+    height: 100%;
+    background-image: url("../img/white-bg-cover.jpg");
+    background-size: cover;
+}
+body {
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5) inset;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.site-wrapper {
+    display: table;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+.cover-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+.inner {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.masthead-brand {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.masthead-nav > li {
+    display: inline-block;
+}
+.masthead-nav > li + li {
+    margin-left: 20px;
+}
+.masthead-nav > li > a {
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    color: rgba(1, 1, 1, 0.75);
+    font-size: larger;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.masthead-nav > li > a:hover, .masthead-nav > li > a:focus {
+    background-color: #0072bd;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    color: white;   
+    
+}
+.masthead-nav > .active > a, .masthead-nav > .active > a:hover, .masthead-nav > .active > a:focus {
+    border-bottom-color: #FFFFFF;
+    color: #FFFFFF;
+}
+@media (min-width: 768px) {
+.masthead-brand {
+    float: left;
+}
+.masthead-nav {
+    float: right;
+}
+}
+.cover {
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+}
+.cover .btn-lg {
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.mastfoot {
+    color: rgba(255, 255, 255, 0.5);
+}
+@media (min-width: 768px) {
+.masthead {
+    position: fixed;
+    top: 0;
+}
+.mastfoot {
+    bottom: 0;
+    position: fixed;
+}
+.site-wrapper-inner {
+    vertical-align: middle;
+}
+.masthead, .mastfoot, .cover-container {
+    width: 100%;
+}
+}
+@media (min-width: 992px) {
+.masthead, .mastfoot, .cover-container {
+    width: 100%;
+}
+}
+.main-heading {
+    color:black;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Form submit button */
+
+
+ .cf:before, .cf:after{
+      content:"";
+      display:table;
+    }
+    
+    .cf:after{
+      clear:both;
+    }
+
+    .cf{
+      zoom:1;
+    }
+
+
+.form-wrapper {
+        width: 100%;
+        padding:2%;
+        position: center;
+        background: #444;
+        background: rgba(0,0,0,.4);
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        -moz-box-shadow: 0 1px 1px rgba(0,0,0,.3) inset, 0 1px 0 rgba(255,255,255,.3);
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.3) inset, 0 1px 0 rgba(255,255,255,.3);
+        box-shadow: 0 1px 1px rgba(0,0,0,.3) inset, 0 1px 0 rgba(255,255,255,.3);
+    }
+
+.form-wrapper input {
+    width: 80%;
+    height: 40px;
+    padding: 5px;
+    float: left;    
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #eee;
+    border-radius: 3px 0 0 3px; 
+    color: #111111;     
+}
+ 
+.form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+ 
+.form-wrapper input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+ 
+.form-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+ 
+.form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}    
+.form-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 20%;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #0072BD;
+    border-radius: 0 3px 3px 0;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}   
+   
+.form-wrapper button:hover{     
+    background: #0066aa;
+}   
+   
+.form-wrapper button:active,
+.form-wrapper button:focus{   
+    background: #0066aa;
+    outline: 0;   
+}
+ 
+.form-wrapper button:before { /* left arrow */
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #d83c3c transparent;
+    top: 12px;
+    left: -6px;
+}
+ 
+.form-wrapper button:hover:before{
+    border-right-color: #0072BD;
+}
+ 
+.form-wrapper button:focus:before,
+.form-wrapper button:active:before{
+        border-right-color: #0072bd;
+}      
+ 
+.form-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}  
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
