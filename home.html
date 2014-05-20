@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="img/favicon.jpg">
@@ -13,14 +13,15 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome-4.1.0/css/font-awesome.min.css">
     <!-- Custom styles for this template -->
     <link href="css/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+   
 
-      <link rel="stylesheet" type="text/css" href="css/common.css" />
-      <link rel="stylesheet" type="text/css" href="css/style.css" />
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css' />
-    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
     
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -28,14 +29,7 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Owl Carousel Assets -->
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
-
-    <!-- Prettify -->
-    <link href="css/google-code-prettify/prettify.css" rel="stylesheet">
+    <![endif]--> 
     
  </head>
  <body>
@@ -91,7 +85,7 @@
             <!--End Main Header-->
             <!-- Modal Content-->
             <div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                      <div class="container container col-lg-5 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-5 col-sm-offset-4">
+                      <div class="container container col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-5 col-sm-offset-4">
                        <form class="form-3">
                                 <p class="clearfix">
                                     <label for="login">Username</label>
@@ -112,7 +106,7 @@
                       </div>
                       </div>
                       <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                      <div class="container col-lg-5 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-5 col-sm-offset-4">
+                      <div class="container col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-5 col-sm-offset-4">
                        <form class="form-3">
                                 <p class="clearfix">
                                     <label for="login">Username</label>
@@ -137,7 +131,7 @@
                       <!-- Main Heading -->
                       <div class="row hidden-xs">
                         <div class="main-heading">
-                          <p><h2>Looking for a makeover? Or simply want to relax and pamper yourself?</h2></p>
+                          <p><h1>Looking for a makeover? Or do you just want to relax and pamper yourself?</h1></p>
                         </div>
                       </div>
                       <!-- End Heading -->
@@ -146,24 +140,24 @@
   <div class="col-lg-6 col-lg-offset-3 hidden-xs hidden-sm hidden-md"> <!-- Search Box For Large Screens -->
             <form class="form-wrapper cf">
             <input type="text" placeholder="Search for salons, localities or services" required>
-            <button type="submit"><!--<img class="img-responsive" src="img/search.jpg">-->Prune! <span class="glyphicon glyphicon-search"></span></button>
+            <button type="submit">Go Prune <i class="fa fa-search"></i></button>
             </form>   
          </div>
   <div class="col-md-8 col-md-offset-2 hidden-xs hidden-sm hidden-lg"> <!-- Search Box For medium Screens -->
             <form class="form-wrapper cf">
               <input type="text" placeholder="Search for salons, localities or services" required>
-              <button type="submit"><!--<img class="img-responsive" src="img/search.jpg">-->Prune! <span class="glyphicon glyphicon-search"></span></button>
+              <button type="submit">Prune! <span class="glyphicon glyphicon-search"></span></button>
             </form>   
         </div>
   <div class="col-sm-8 col-sm-offset-2 hidden-xs hidden-md hidden-lg"> <!-- Search Box For medium Screens -->
             <form class="form-wrapper cf">
               <input type="text" placeholder="Search for salons, localities or services" required>
-              <button type="submit"><!--<img class="img-responsive" src="img/search.jpg">-->Prune! <span class="glyphicon glyphicon-search"></span></button>
+              <button type="submit">Prune! <span class="glyphicon glyphicon-search"></span></button>
             </form>   
         </div>
   <div class="col-xs-8 col-xs-offset-2 hidden-sm hidden-md hidden-lg"> <!-- Search Box For small Screens -->
           <form class="form-wrapper cf">
-            <input type="text" placeholder="Salons, Services,etc" required>
+            <input type="text" placeholder="Salons and more" required>
             <button type="submit"><span class="glyphicon glyphicon-search"></span></button>
           </form>   
         </div>
@@ -176,75 +170,90 @@
         </div>
         </div>
         <!-- End Text-->
-        <!-- Carousel -->
         <!-- Services -->
- <section class="main">
+      <div class="row">
+     
+              <section class="main">
       
         <ul class="ch-grid">
           <li>
           <a href="#">
             <div class="ch-item ch-img-1">
-              <div class="ch-info">
-                <h3>Spa & Massage</h3>
-                <p><a href="#">Renergize & Reconnect with yourself</a></p>
-              </div>
+            <a href="#"><img src="img/spa.png"></a>
             </div>
             </a>
           </li>
           <li>
           <a href="#">
             <div class="ch-item ch-img-2">
-              <div class="ch-info">
-                <h3>Hair Styling & Care</h3>
-                <p><a href="#">Get that look</a></p>
-              </div>
+             <a href="#"><img src="img/hair.png"></a>
             </div>
             </a>
           </li>
           <li>
           <a href="#">
             <div class="ch-item ch-img-3">
-              <div class="ch-info">
-                <h3>Skin Care & Make Up</h3>
-                <p><a href="http://drbl.in/ekhp">View on Dribbble</a></p>
-              </div>
+              <a href="#"> <img src="img/skin.png"></a>
             </div>
             </a>
           </li>
          <li>
          <a href="#">
             <div class="ch-item ch-img-4">
-              <div class="ch-info">
-                <h3>Spa</h3>
-                <p><a href="http://drbl.in/eOPF">Renergize</a></p>
-              </div>
+             <a href="#">  <img src="img/groom.png"></a>
             </div>
             </a>
           </li>
           <li>
           <a href="#">
             <div class="ch-item ch-img-5">
-              <div class="ch-info">
-                <a href="#"><h3>Hair Styling & Care</h3></a>
-                <p><a href="http://drbl.in/eKMi">Get that look</a></p>
-              </div>
+            <a href="#">   <img src="img/tattoo.png"></a>
             </div>
             </a>
           </li>
-          <li>
+         <li>
           <a href="#">
             <div class="ch-item ch-img-6">
-              <div class="ch-info">
-                <h3>Skin Care & Make Up</h3>
-                <p><a href="http://drbl.in/ekhp">View on Dribbble</a></p>
-              </div>
+             <a href="#">  <img src="img/health.png"></a>
             </div>
             </a>
           </li>
         </ul>
         
       </section>
+      </div>
     <!-- End Services-->
+    <br><br>
+    <div class="row footer hidden-xs">
+    <div class="col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4 col-sm-4 col-sm-offset-4 right">
+      <span class="footer">Prunerr</span> helps you find the perfect partner for your beauty and health needs, pruning away undesirable results. helps you find the perfect partner for your beauty and health needs, pruning away undesirable results.helps you find the perfect partner for your beauty and health needs, pruning away undesirable results.helps you find the perfect partner for your beauty and health needs, pruning away undesirable results.
+     
+    </div>
+    <div class="col-lg-4 col-md-4 right">
+      <a href="#">Contact Us</a><br>
+      <a href="#">Privacy Policy</a><br>
+      <a href="#">Add a Salon</a><br>
+      <a href="#">FAQ</a><br><br><br>
+      Connect with Us:<br>
+      <a href="https://www.facebook.com/prunerr" target="_blank"><i class="fa fa-facebook fa-2x"></i>  </a>
+      <a href="https://twitter.com/Prunerrdotcom" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+    </div>
+    </div>
+     <div class="row footer-small hidden-sm hidden-md hidden-lg">
+     <div class="col-xs-8 col-sm-2">
+      <span class="footer">Prunerr</span> helps you find the perfect partner for your beauty and health needs, pruning away undesirable results. helps you find the perfect partner for your beauty and health needs, pruning away undesirable results.helps you find the perfect partner for your beauty and health needs, pruning away undesirable results.helps you find the perfect partner for your beauty and health needs, pruning away undesirable results.
+     </div>
+    <div class="col-xs-4 col-sm-10 right">
+     <a href="#">Contact Us</a><br>
+      <a href="#">Privacy Policy</a><br>
+      <a href="#">Add a Salon</a><br>
+      <a href="#">FAQ</a><br><br><br>
+      Connect with Us:<br>
+      <a href="https://www.facebook.com/prunerr" target="_blank"><i class="fa fa-facebook fa-2x"></i>  </a>
+      <a href="https://twitter.com/Prunerrdotcom" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+
+    </div>
+    </div>
             </div> <!-- Main Container-->
         </div>
     </div> <!-- Site Wrapper -->
@@ -288,6 +297,34 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
   })(); </script>
+
+  <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Voltaire::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+   <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Rancho::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
   <!-- End Fonts Scripts -->
 
 <script type="text/javascript">
@@ -302,32 +339,9 @@ $(document).ready(function(e){
 });
 </script>
 
-<script type="text/javascript">
-            var owldomain = window.location.hostname.indexOf("owlgraphic");
-            if(owldomain !== -1){
-              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-            }
-</script>
-            
 
+  
 
+ </body>
 
-<script type="text/javascript">
-    $(document).ready(function() {
-      $("#owl-demo").owlCarousel({
-        autoPlay: 2000,
-        items : 6,
-        itemsDesktop : [1199,3],
-        itemsDesktopSmall : [979,3],
-        itemsTablet: [767,2],
-        itemsTablet: [599,2],
-        itemsMobile : [479,1],
-        itemsMobile : [299,1],
-        responsive: true,
-        responsiveRefreshRate : 200,
-        responsiveBaseWidth: window,
-        mouseDrag : true,
-        touchDrag : true,
-        autoHeight : false,
-        navigation : true,
-        navigationText : 
+ </html>
