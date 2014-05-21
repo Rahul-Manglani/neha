@@ -47,7 +47,7 @@ body {
 .city-select{
 	font-size: medium;
 	font-family: 'Voltaire', sans-serif;
-	margin-left: 5%;
+	margin-left: 10%;
 	color: #0072bd;
 	text-decoration: none;
 }
@@ -56,12 +56,24 @@ body {
 	color: #0072bd;
 	padding-top: 20px;
 	margin-top: 20px;
+    
+}
+
+.navbar-brand img{
+    max-width: 225px;
+    max-height: 100px;
 }
 
 .city-select a:hover, a:focus, a:active {
     color:green;
     text-decoration: none;
  }
+
+ .small-header img{
+   width:225px;
+   height: 100px;
+ }
+
 .navbar-nav , .home-nav > li > a {
   padding-top: 25px;
   padding-bottom: 10px;
@@ -496,12 +508,13 @@ body.modal-open #wrap{
     font-family: 'Voltaire', sans-serif;
     padding-top: 5%;
     padding-bottom: 10%;
+    overflow: hidden;
 }
 
 .footer-small
 {
     background-image: url(../img/footer-small.png);
-     padding-top: 5%;
+     padding-top: 10%;
     padding-bottom: 10%;
 
 }
@@ -527,6 +540,3 @@ body.modal-open #wrap{
     background-image: none;
 }
 
-.footer-medium{
-    text-align: right;
-}
